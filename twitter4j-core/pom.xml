@@ -1,12 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.twitter4j</groupId>
-    <artifactId>twitter4j-core</artifactId>
-    <version>4.0.6</version>
+    <!-- Modified the artifactId to "-custom" to make it distinct from the officially 
+		maintained Twitter4J -->
+    <groupId>org.twitter4j</groupId>	
+	<artifactId>twitter4j-core-custom</artifactId>	
+    <version>4.0.6</version>    
     <packaging>jar</packaging>
-    <name>twitter4j-core</name>
-    <description>A Java library for the Twitter API</description>
+    <name>twitter4j-core-custom</name>
+    <description>A Java library for the Twitter API; CUSTOMIZED FOR INTERNAL USE!</description>
+    
     <url>http://twitter4j.org/</url>
     <licenses>
         <license>
@@ -16,10 +19,9 @@
         </license>
     </licenses>
     <scm>
-        <url>https://github.com/yusuke/twitter4j</url>
-        <connection>scm:git:https://github.com/yusuke/twitter4j.git</connection>
-        <developerConnection>scm:https://github.com/yusuke/twitter4j.git
-        </developerConnection>
+        <url>https://github.com/krallus/twitter4j</url>
+        <connection>scm:git:https://github.com/krallus/twitter4j.git</connection>
+        <developerConnection>scm:https://github.com/krallus/twitter4j.git</developerConnection>
 
     <tag>4.0.6</tag>
   </scm>
